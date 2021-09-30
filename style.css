@@ -19,13 +19,11 @@
     height: 170px;
     text-align:center;
     font-family: 'Noto Serif TC', serif;
+
 }
 
 .div_imgbox {
-    position: sticky;
-    top: 0px;
-    left: 0px;
-    bottom: 0px;
-    right: 0px;
-    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
