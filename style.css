@@ -20,7 +20,7 @@
     text-align:center;
     font-family: 'Noto Serif TC', serif;
     /*設定框線供剪刀使用*/
-    border-width: 5px;
+    border-width: 3px;
     border-style: dashed; /* 設為虛線 */
     border-color: red; /* 設定邊框顏色 */
 
