@@ -21,3 +21,12 @@
     font-family: 'Noto Serif TC', serif;
     
 }
+
+.div_imgbox {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    margin: auto;
+}
