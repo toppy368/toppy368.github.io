@@ -23,7 +23,8 @@
 }
 
 .div_imgbox {
+    /* 將設定為flex 元件 */
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center; /* 將物件置中 */
+    justify-content: center; /* 容器縱軸置中 */
 }
