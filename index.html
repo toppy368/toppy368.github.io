@@ -40,5 +40,32 @@
                 </script>
             </div>
         </div>
+        <!--以下兩組可以左右個別印製-->
+        <p></p>
+        <!--第三組條碼，第三組、第四組條碼可左右印製-->
+        <div class="div_box">Toppy 的電子發票手機載具<br>
+            <div class="div_imgbox">
+                <img src="027_GJ.jpg" width="100" heigh="100">
+                <svg id="Invoice_barcode3"></svg>
+                <script>
+                    JsBarcode("#Invoice_barcode2", "/GDPA8CR", {
+                        format: "CODE39",
+                    });    
+                </script>
+            </div>
+        </div>
+        <!--第四組條碼，可左右印製-->
+        <div class="div_box">Toppy 的電子發票手機載具<br>
+            <div class="div_imgbox">
+                <img src="027_GJ.jpg" width="100" heigh="100">
+                <svg id="Invoice_barcode4"></svg>
+                <script>
+                    JsBarcode("#Invoice_barcode2", "/GDPA8CR", {
+                        format: "CODE39",
+                    });    
+                </script>
+            </div>
+        </div>
+
     </body>
 </html>
