@@ -41,7 +41,18 @@
             </div>
         </div>
         <p></p>
-        <!--無Logo版本-->
+        <!--無Logo的條碼版本-->
+        <div class="div_box">Toppy 的電子發票手機載具
+            <div class="div_imgbox">
+                <svg id="Invoice_barcode2"></svg>
+                <script>
+                    JsBarcode("#Invoice_barcode2", "/GDPA8CR", {
+                        format: "CODE39",
+                    });
+                </script>
+            </div>
+        </div>
+
 
     </body>
 </html>
