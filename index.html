@@ -41,12 +41,24 @@
             </div>
         </div>
         <p></p>
-        <!--無Logo的條碼版本-->
+        <!--無Logo的條碼版本 正面-->
         <div class="div_box">Toppy 的電子發票手機載具
             <div class="div_imgbox">
-                <svg id="Invoice_barcode2"></svg>
+                <svg id="Invoice_barcode3"></svg>
                 <script>
-                    JsBarcode("#Invoice_barcode2", "/GDPA8CR", {
+                    JsBarcode("#Invoice_barcode3", "/GDPA8CR", {
+                        format: "CODE39",
+                    });
+                </script>
+            </div>
+        </div>
+        <p></p>
+        <!--無Logo的條碼版本 背面-->
+        <div class="div_box">Toppy 的電子發票手機載具
+            <div class="div_imgbox">
+                <svg id="Invoice_barcode4"></svg>
+                <script>
+                    JsBarcode("#Invoice_barcode4", "/GDPA8CR", {
                         format: "CODE39",
                     });
                 </script>
