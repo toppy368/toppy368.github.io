@@ -44,6 +44,7 @@
     border-style: dashed; /* 設為虛線 */
     border-color: red; /* 設定邊框顏色 */
     float:left; /*設定靠左並排*/
+    margin-right:10px; /*設定右外間距*/
 
 }
 .div_box_side_left2 {
