@@ -32,3 +32,17 @@
     align-items: center; /* 將物件置中 */
     justify-content: center; /* 容器縱軸置中 */
 }
+
+/* 靠左並排 Side by side left */
+.div_box_side_left {
+    width: 450px;
+    height: 170px;
+    text-align:center;
+    font-family: 'Noto Serif TC', serif;
+    /*設定框線供剪刀使用*/
+    border-width: 3px;
+    border-style: dashed; /* 設為虛線 */
+    border-color: red; /* 設定邊框顏色 */
+    float:left; /*設定靠左並排*/
+
+}
