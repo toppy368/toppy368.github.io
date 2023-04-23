@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!--Include JsBarcode-->
+        <script src="JsBarcode.all.min.js"></script>
+
+        <!--引入CSS檔 / Include style.css -->
+        <link href="style.css" rel="stylesheet" type="text/css">
+        
+        <!--設定網頁標題-->
+        <title>Toppy 的電子發票手機載具 並排版</title>
+
+    </head>
+    <body>
+
+        <!--新增靠左有icon的並排載具-->
+        <div class="div_box_side_left1">Toppy 的電子發票手機載具<br>
+            <div class="div_imgbox">
+                <img src="027_GJ.jpg" width="100" heigh="100">
+                <!--新增其他組重覆條碼時，請將svg id更名，避免重覆造成衝突-->
+                <svg id="Invoice_barcode_left1"></svg>
+                <!--新增其他組重覆條碼時，請將JsBarcode裡面的“＃Inv...”更名，請勿重覆以免發生衝突-->
+                <script>
+                    JsBarcode("#Invoice_barcode_left1", "/GDPA8CR", {
+                        format: "CODE39",
+                    });
+                </script>
+            </div>
+        </div>
+
+        <div class="div_box_side_left2">Toppy 的電子發票手機載具<br>
+            <div class="div_imgbox">
+                <img src="027_GJ.jpg" width="100" heigh="100">
+                <svg id="Invoice_barcode_left2"></svg>
+                <script>
+                    JsBarcode("#Invoice_barcode_left2", "/GDPA8CR", {
+                        format: "CODE39",
+                    });
+                </script>
+            </div>
+        </div>
+
+        <p></p>
+    </body>
+</html>
