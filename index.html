@@ -67,9 +67,36 @@
             </div>
         </div>
         <p></p>
+        <!--新增靠左有icon的並排載具-->
+        <div class="div_box_side_left">Toppy 的電子發票手機載具<br>
+            <div class="div_imgbox">
+                <img src="027_GJ.jpg" width="100" heigh="100">
+                <!--新增其他組重覆條碼時，請將svg id更名，避免重覆造成衝突-->
+                <svg id="Invoice_barcode_left1"></svg>
+                <!--新增其他組重覆條碼時，請將JsBarcode裡面的“＃Inv...”更名，請勿重覆以免發生衝突-->
+                <script>
+                    JsBarcode("#Invoice_barcode_left1", "/GDPA8CR", {
+                        format: "CODE39",
+                    });
+                </script>
+            </div>
+        </div>
+
+        <div class="div_box_side_left">Toppy 的電子發票手機載具<br>
+            <div class="div_imgbox">
+                <img src="027_GJ.jpg" width="100" heigh="100">
+                <svg id="Invoice_barcode_left2"></svg>
+                <script>
+                    JsBarcode("#Invoice_barcode_left2", "/GDPA8CR", {
+                        format: "CODE39",
+                    });
+                </script>
+            </div>
+        </div>
+        <p></p>
         <p></p>
         <!--列印用連結-->
-        <h2>列印條碼使用說明</h2><br />.
+        <h2>列印條碼使用說明</h2><br>
         列印條碼請使用此連結：<a href="https://invoice.toppy368.net/invoice_70.pdf">縮放70%條碼列印文件</a>
         <p></p>
     </body>
